@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 style="color: brown; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                <marquee style="text-shadow: 1px 1px 1px black; width: 50%;"> 
+                    Rock Paper Scissors
+                </marquee> 
+            </h1>
+        </div> <br> <br>
+        <div style="border: 2px solid black;">
+        <P>
+            <span style="font-size: 20px; font-weight: bolder;">Rules: </span> 
+            <span style="font-size: 18px; font-family: 'Times New Roman', Times, serif;">
+                The rock is a closed fist; paper is a flat hand with fingers and thumb extended and the palm facing downward; and scissors is a fist with the index and middle fingers fully extended toward the opposing player. Rock wins against scissors; paper wins against rock; and scissors wins against paper.
+             </span> 
+        </P>
+        </div>
+        <br>
+        <div class="fex_box" id="flex_box_id" style="box-shadow: 5px 5px 5px black;">
+            <img id="Rock" src="https://www.geologypage.com/wp-content/uploads/2019/05/Granite-Rocks-GeologyPage.jpg" alt="" height="150" width="150" onclick="RPSgame(this)">
+            <img id="Paper" src="https://5.imimg.com/data5/PL/UP/MY-36277696/color-papers-500x500.jpg" alt="" height="150" width="150" onclick="RPSgame(this)">
+            <img id="Scissor" src="https://www.sensationalkids.ie/wp-content/uploads/2021/10/scissors2.jpg" alt="" height="150" width="150" onclick="RPSgame(this)">
+        </div>
+        <br><br>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg btn-block" onClick="window.location.reload()">RESET</button>
+        </div><br>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
