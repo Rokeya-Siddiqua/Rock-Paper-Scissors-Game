@@ -1,0 +1,19 @@
+.container{
+    border: 1px solid black;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 1px 10px 10px black;
+}
+
+.fex_box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.fex_box img:hover {
+    box-shadow: 0px 10px 50px blue;   
+    cursor: pointer;
+}
